@@ -1,0 +1,29 @@
+{
+  "dmApp": {
+    "commande": {
+      "home": {
+        "title": "Commandes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Commande",
+        "createOrEditLabel": "创建或编辑 Commande",
+        "notFound": "No Commandes found"
+      },
+      "created": "Commande {{ param }} 创建成功",
+      "updated": "Commande {{ param }} 更新成功",
+      "deleted": "Commande {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Commande {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "id": "ID",
+      "prixTotal": "Prix Total",
+      "date": "Date",
+      "adresseLivraison": "Adresse Livraison",
+      "produit": "Produit",
+      "livreur": "Livreur",
+      "client": "Client"
+    }
+  }
+}

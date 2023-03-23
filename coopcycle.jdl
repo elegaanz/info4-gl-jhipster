@@ -1,0 +1,42 @@
+entity Client {
+	nom String required
+    adresse String
+    email String pattern(/[a-zA-Z0-9_.]+@[a-zA-Z0-9_.]+.[a-z]+/)
+    telephone String pattern(/(\+\d+)?[0-9 ]+/)
+}
+
+entity Commande {
+	prixTotal Float required min(0)
+    date Instant required
+    adresseLivraison String required
+}
+
+entity Boutique {
+	nom String required
+    adresse String
+}
+
+entity Produit {
+	nom String required
+	prix Float required min(0)
+}
+
+entity Livreur {
+	nom String required
+}
+
+relationship OneToMany {
+	Boutique to Produit
+}
+
+relationship OneToMany {
+	Livreur to Commande
+}
+
+relationship ManyToMany {
+	Commande to Produit
+}
+
+relationship OneToMany {
+	Client to Commande
+}

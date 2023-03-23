@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20230323210929",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "produit",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "prix",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Produit",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "boutique",
+      "otherEntityRelationshipName": "produit",
+      "relationshipName": "boutique",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "commande",
+      "otherEntityRelationshipName": "produit",
+      "ownerSide": false,
+      "relationshipName": "commande",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

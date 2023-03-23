@@ -1,0 +1,26 @@
+{
+  "dmApp": {
+    "boutique": {
+      "home": {
+        "title": "Boutiques",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Boutique",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Boutique",
+        "notFound": "No Boutiques found"
+      },
+      "created": "Ένα νέο Boutique έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Boutique έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Boutique έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Boutique {{ id }};"
+      },
+      "detail": {
+        "title": "Boutique"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "produit": "Produit"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dmApp": {
+    "boutique": {
+      "home": {
+        "title": "Boutiques",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Boutique erstellen",
+        "createOrEditLabel": "Boutique erstellen oder bearbeiten",
+        "notFound": "Keine Boutiques gefunden"
+      },
+      "created": "Boutique erstellt mit ID {{ param }}",
+      "updated": "Boutique aktualisiert mit ID {{ param }}",
+      "deleted": "Boutique gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Boutique {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Boutique"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "produit": "Produit"
+    }
+  }
+}

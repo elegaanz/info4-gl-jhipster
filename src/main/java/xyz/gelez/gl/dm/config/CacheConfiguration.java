@@ -48,6 +48,16 @@ public class CacheConfiguration {
             createCache(cm, xyz.gelez.gl.dm.domain.User.class.getName());
             createCache(cm, xyz.gelez.gl.dm.domain.Authority.class.getName());
             createCache(cm, xyz.gelez.gl.dm.domain.User.class.getName() + ".authorities");
+            createCache(cm, xyz.gelez.gl.dm.domain.Client.class.getName());
+            createCache(cm, xyz.gelez.gl.dm.domain.Client.class.getName() + ".commandes");
+            createCache(cm, xyz.gelez.gl.dm.domain.Commande.class.getName());
+            createCache(cm, xyz.gelez.gl.dm.domain.Commande.class.getName() + ".produits");
+            createCache(cm, xyz.gelez.gl.dm.domain.Boutique.class.getName());
+            createCache(cm, xyz.gelez.gl.dm.domain.Boutique.class.getName() + ".produits");
+            createCache(cm, xyz.gelez.gl.dm.domain.Produit.class.getName());
+            createCache(cm, xyz.gelez.gl.dm.domain.Produit.class.getName() + ".commandes");
+            createCache(cm, xyz.gelez.gl.dm.domain.Livreur.class.getName());
+            createCache(cm, xyz.gelez.gl.dm.domain.Livreur.class.getName() + ".commandes");
             // jhipster-needle-ehcache-add-entry
         };
     }

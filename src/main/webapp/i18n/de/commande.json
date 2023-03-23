@@ -1,0 +1,29 @@
+{
+  "dmApp": {
+    "commande": {
+      "home": {
+        "title": "Commandes",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Commande erstellen",
+        "createOrEditLabel": "Commande erstellen oder bearbeiten",
+        "notFound": "Keine Commandes gefunden"
+      },
+      "created": "Commande erstellt mit ID {{ param }}",
+      "updated": "Commande aktualisiert mit ID {{ param }}",
+      "deleted": "Commande gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Commande {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "id": "ID",
+      "prixTotal": "Prix Total",
+      "date": "Date",
+      "adresseLivraison": "Adresse Livraison",
+      "produit": "Produit",
+      "livreur": "Livreur",
+      "client": "Client"
+    }
+  }
+}

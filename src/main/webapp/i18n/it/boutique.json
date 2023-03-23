@@ -1,0 +1,26 @@
+{
+  "dmApp": {
+    "boutique": {
+      "home": {
+        "title": "Boutiques",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Boutique",
+        "createOrEditLabel": "Genera o modifica un Boutique",
+        "notFound": "No Boutiques found"
+      },
+      "created": "&Egrave; stato generato un nuovo Boutique con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Boutique identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Boutique con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Boutique {{ id }}?"
+      },
+      "detail": {
+        "title": "Boutique"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "produit": "Produit"
+    }
+  }
+}

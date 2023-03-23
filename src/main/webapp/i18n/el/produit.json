@@ -1,0 +1,27 @@
+{
+  "dmApp": {
+    "produit": {
+      "home": {
+        "title": "Produits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Produit",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Produit",
+        "notFound": "No Produits found"
+      },
+      "created": "Ένα νέο Produit έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Produit έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Produit έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Produit {{ id }};"
+      },
+      "detail": {
+        "title": "Produit"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "prix": "Prix",
+      "boutique": "Boutique",
+      "commande": "Commande"
+    }
+  }
+}
